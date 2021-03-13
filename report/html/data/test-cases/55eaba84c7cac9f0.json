@@ -1,0 +1,157 @@
+{
+  "uid" : "55eaba84c7cac9f0",
+  "name" : "test_saveMembers[information0]",
+  "fullName" : "testcase.test_contact.TestContact#test_saveMembers",
+  "historyId" : "e3e4602b610ed3a16ca64dbdd6e79bda",
+  "time" : {
+    "start" : 1615652829387,
+    "stop" : 1615652879623,
+    "duration" : 50236
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入消息页面",
+      "time" : {
+        "start" : 1615652850511,
+        "stop" : 1615652850511,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "进入通讯录页面",
+      "time" : {
+        "start" : 1615652850511,
+        "stop" : 1615652852332,
+        "duration" : 1821
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "进入添加成员界面",
+      "time" : {
+        "start" : 1615652852332,
+        "stop" : 1615652862040,
+        "duration" : 9708
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "进入保存成员界面",
+      "time" : {
+        "start" : 1615652862040,
+        "stop" : 1615652863619,
+        "duration" : 1579
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "保存成员信息",
+      "time" : {
+        "start" : 1615652863619,
+        "stop" : 1615652879623,
+        "duration" : 16004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'李武啊'"
+      }, {
+        "name" : "phone",
+        "value" : "'13262515827'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8b8148316ddf546c",
+      "name" : "log",
+      "source" : "8b8148316ddf546c.txt",
+      "type" : "text/plain",
+      "size" : 562
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "添加成员测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_contact"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestContact"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-6KHBA40C"
+  }, {
+    "name" : "thread",
+    "value" : "17856-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "information",
+    "value" : "['李武啊', '13262515827']"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "55eaba84c7cac9f0.json",
+  "parameterValues" : [ "['李武啊', '13262515827']" ]
+}

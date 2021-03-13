@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Mar 14 00:42:40 CST 2021","Sun Mar 14 00:43:31 CST 2021","51514","testcase","test_contact","TestContact","","","test_saveMembers[information0]",""
+"passed","Sun Mar 14 00:42:02 CST 2021","Sun Mar 14 00:42:40 CST 2021","38059","testcase","test_contact","TestContact","","","test_deleteContact[names1]",""
+"passed","Sun Mar 14 00:43:31 CST 2021","Sun Mar 14 00:44:21 CST 2021","49374","testcase","test_contact","TestContact","","","test_saveMembers[information1]",""
+"passed","Sun Mar 14 00:41:26 CST 2021","Sun Mar 14 00:42:02 CST 2021","35995","testcase","test_contact","TestContact","","","test_deleteContact[names0]",""

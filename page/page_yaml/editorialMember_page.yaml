@@ -1,0 +1,14 @@
+deleteMember:
+  - action: sleep
+    time: 2
+
+  - by: xpath
+    locator: //*[@resource-id="com.tencent.wework:id/esd"]
+    action: click
+
+  - by: xpath
+    locator: //*[@resource-id='com.tencent.wework:id/bpc']
+    action: click
+
+  - action: swip_click
+    text: "我的客户"

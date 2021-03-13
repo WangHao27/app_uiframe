@@ -1,0 +1,7 @@
+INFO     root:loggers.py:42 点击元素：通讯录
+INFO     root:loggers.py:42 元素：添加成员，已找到...
+INFO     root:loggers.py:42 点击元素：手动输入添加
+INFO     root:loggers.py:42 元素：by=xpath locator=//*[@resource-id="com.tencent.wework:id/b7m"]，输入值为：李武啊
+INFO     root:loggers.py:42 元素：by=xpath locator=//*[@resource-id="com.tencent.wework:id/fwi"]，输入值为：13262515827
+INFO     root:loggers.py:42 点击元素：保存后自动发送邀请通知
+INFO     root:loggers.py:42 点击元素：保存

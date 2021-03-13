@@ -1,0 +1,6 @@
+INFO     root:loggers.py:42 点击元素：通讯录
+INFO     root:loggers.py:42 元素：hang6，已找到...
+INFO     root:loggers.py:42 点击元素：
+INFO     root:loggers.py:42 点击元素：编辑成员
+INFO     root:loggers.py:42 点击元素：删除成员
+WARNING  root:loggers.py:46 元素：by=-android uiautomator locator=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text("我的客户").instance(0)); 未找到，开始黑名单处理...

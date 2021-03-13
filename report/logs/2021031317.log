@@ -1,0 +1,3 @@
+2021-03-13 17:32:29,208 - root - INFO : 点击元素<appium.webdriver.webelement.WebElement (session="27a1eafe-052f-4967-baa0-22d35c70e4e1", element="1")>
+2021-03-13 17:56:08,079 - root - INFO : 点击元素<appium.webdriver.webelement.WebElement (session="b0057eea-f22d-4f20-abb3-9e2f34fbcba8", element="1")>
+2021-03-13 17:56:11,014 - root - INFO : 点击元素<appium.webdriver.webelement.WebElement (session="b0057eea-f22d-4f20-abb3-9e2f34fbcba8", element="2")>

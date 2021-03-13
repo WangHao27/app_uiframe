@@ -1,0 +1,7 @@
+goto_personalInfo:
+  - action: swip_click
+    text: "{name}"
+
+goto_addmenbers:
+  - action: swip_click
+    text: 添加成员

@@ -1,0 +1,4 @@
+goto_InfoSettings:
+  - by: xpath
+    locator: //*[@resource-id="com.tencent.wework:id/igo"]
+    action: click

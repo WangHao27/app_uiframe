@@ -1,0 +1,4 @@
+goto_savemembers:
+- by: xpath
+  locator: //*[@text="手动输入添加"]
+  action: click

@@ -1,0 +1,7 @@
+INFO     root:loggers.py:42 点击元素：通讯录
+INFO     root:loggers.py:42 元素：hang6，已找到...
+INFO     root:loggers.py:42 点击元素：
+INFO     root:loggers.py:42 点击元素：编辑成员
+INFO     root:loggers.py:42 点击元素：删除成员
+INFO     root:loggers.py:42 点击元素：确定
+INFO     root:loggers.py:42 元素：我的客户，已找到...

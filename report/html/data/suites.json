@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_contact",
+      "children" : [ {
+        "name" : "TestContact",
+        "children" : [ {
+          "name" : "test_deleteContact[names0]",
+          "uid" : "4584b8aaf7fdcfdd",
+          "parentUid" : "7fa8b416a3314567d55590d3e0872486",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615653686175,
+            "stop" : 1615653722170,
+            "duration" : 35995
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'name': 'hang6'}" ]
+        }, {
+          "name" : "test_deleteContact[names1]",
+          "uid" : "28198313507e11c0",
+          "parentUid" : "7fa8b416a3314567d55590d3e0872486",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615653722174,
+            "stop" : 1615653760233,
+            "duration" : 38059
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'name': 'hang3'}" ]
+        }, {
+          "name" : "test_saveMembers[information0]",
+          "uid" : "2bf828b7b47c8c97",
+          "parentUid" : "7fa8b416a3314567d55590d3e0872486",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615653760238,
+            "stop" : 1615653811752,
+            "duration" : 51514
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "['李武啊', '13262515827']" ]
+        }, {
+          "name" : "test_saveMembers[information1]",
+          "uid" : "6f3b0d028475b496",
+          "parentUid" : "7fa8b416a3314567d55590d3e0872486",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615653811762,
+            "stop" : 1615653861136,
+            "duration" : 49374
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "['里斯', '13456235231']" ]
+        } ],
+        "uid" : "7fa8b416a3314567d55590d3e0872486"
+      } ],
+      "uid" : "ebaca61c97f16f3f3f2b267236b76fcb"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

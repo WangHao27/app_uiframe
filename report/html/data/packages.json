@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.test_contact",
+    "children" : [ {
+      "name" : "test_deleteContact[names0]",
+      "uid" : "4584b8aaf7fdcfdd",
+      "parentUid" : "4f73487b99c7af0054da9870d9e0a024",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615653686175,
+        "stop" : 1615653722170,
+        "duration" : 35995
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': 'hang6'}" ]
+    }, {
+      "name" : "test_deleteContact[names1]",
+      "uid" : "28198313507e11c0",
+      "parentUid" : "4f73487b99c7af0054da9870d9e0a024",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615653722174,
+        "stop" : 1615653760233,
+        "duration" : 38059
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': 'hang3'}" ]
+    }, {
+      "name" : "test_saveMembers[information0]",
+      "uid" : "2bf828b7b47c8c97",
+      "parentUid" : "4f73487b99c7af0054da9870d9e0a024",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615653760238,
+        "stop" : 1615653811752,
+        "duration" : 51514
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['李武啊', '13262515827']" ]
+    }, {
+      "name" : "test_saveMembers[information1]",
+      "uid" : "6f3b0d028475b496",
+      "parentUid" : "4f73487b99c7af0054da9870d9e0a024",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615653811762,
+        "stop" : 1615653861136,
+        "duration" : 49374
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['里斯', '13456235231']" ]
+    } ],
+    "uid" : "testcase.test_contact"
+  } ]
+}

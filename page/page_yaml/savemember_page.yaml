@@ -1,0 +1,18 @@
+savemembers:
+- by: xpath
+  locator: //*[@resource-id="com.tencent.wework:id/b7m"]
+  action: send
+  value: "{name}"
+
+- by: xpath
+  locator: //*[@resource-id="com.tencent.wework:id/fwi"]
+  action: send
+  value: "{phone}"
+
+- by: xpath
+  locator: //*[@text="保存后自动发送邀请通知"]
+  action: click
+
+- by: xpath
+  locator: //*[@resource-id="com.tencent.wework:id/aj_"]
+  action: click
