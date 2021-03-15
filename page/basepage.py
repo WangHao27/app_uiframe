@@ -37,7 +37,8 @@ class BasePage:
         except Exception as e:
             log.warning(f"元素：by={by} locator={locator} 未找到，开始黑名单处理...")
             self._error_count += 1
-            self.driver.implicitly_wait(10)
+            # 减少黑名单处理等待时间
+            self.driver.implicitly_wait(2)
             # 保存出现错误页面的截图
             self.driver.get_screenshot_as_file(f"{shot_path}/tmp.png")
             allure.attach.file("tmp.png", attachment_type=allure.attachment_type.PNG)
