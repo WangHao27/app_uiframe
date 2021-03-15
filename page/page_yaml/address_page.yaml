@@ -1,6 +1,6 @@
 goto_personalInfo:
   - action: swip_click
-    text: "{name}"
+    text: ${name}
 
 goto_addmenbers:
   - action: swip_click

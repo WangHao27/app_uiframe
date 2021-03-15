@@ -79,7 +79,7 @@ class BasePage:
         # json.loads() 反序列化  python 字符串转化为python对象
         raw = json.dumps(steps)
         for key, value in self._params.items():
-            raw = raw.replace("{%s}" % key, value)
+            raw = raw.replace("${%s}" % key, value)
         steps = json.loads(raw)
         for step in steps:
             if "by" in step.keys():
@@ -89,15 +89,9 @@ class BasePage:
                     log.info(f"点击元素：{element.text}")
                     element.click()
                 if "swip_click" == step["action"]:
-                    text: str = step["text"]
-                    # for param in self._params:
-                    #     text = text.replace("{%s}" % param, self._params[param])
-                    self.swip_click(text)
+                    self.swip_click(step["text"])
                 if "send" == step["action"]:
-                    content: str = step["value"]
-                    # for param in self._params:
-                    #     content = content.replace("{%s}" % param, self._params[param])
-                    self.send(content, step['by'], step['locator'])
+                    self.send(step["value"], step['by'], step['locator'])
                 if "sleep" == step["action"]:
                     time = int(step["time"])
                     sleep(time)
