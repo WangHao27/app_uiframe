@@ -4,13 +4,10 @@
 @File ：test_contact.py
 @Email：whang27@163.com
 """
-import json
-import os
-from typing import List, Dict
-
 import allure
 import pytest
 import yaml
+from typing import List
 from page.application import App
 from utils import setting
 
