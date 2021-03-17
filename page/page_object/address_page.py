@@ -8,9 +8,15 @@ import allure
 from page.basepage import BasePage
 from page.page_object.addmembers_page import AddMembersPage
 from page.page_object.personalInfo_page import PersonalInfoPage
+from page.page_object.search_page import SearchPage
 
 
 class AddressListPage(BasePage):
+
+    @allure.step("进入搜索页面")
+    def goto_search(self):
+        self.parse_action('address_page.yaml', 'goto_search')
+        return SearchPage(self.driver)
 
     @allure.step("进入个人信息页面")
     def goto_personalInfo(self, name):

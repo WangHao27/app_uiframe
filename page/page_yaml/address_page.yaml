@@ -5,3 +5,13 @@ goto_personalInfo:
 goto_addmenbers:
   - action: swip_click
     text: 添加成员
+
+goto_search:
+  - by: xpath
+    locator: //*[@resource-id="com.tencent.wework:id/igo"]/android.widget.RelativeLayout[1]
+    action: click
+
+
+
+
+

@@ -27,6 +27,11 @@ class BasePage:
     def __init__(self, driver: WebDriver=None):
         self.driver = driver
 
+    def finds(self, by, locator=None):
+        elements = self.driver.find_elements(by, locator)
+        log.info(f"元素列表为：{elements}")
+        return elements
+
     def find(self, by, locator=None):
         try:
             element = self.driver.find_element(*by) if isinstance(by, tuple) else self.driver.find_element(by, locator)
@@ -63,7 +68,7 @@ class BasePage:
         log.info(f"元素：{text}，已找到...")
 
     def send(self, value, by, locator):
-        self.find(by, locator).click()
+        self.find(by, locator).clear()
         self.find(by, locator).send_keys(value)
         log.info(f"元素：by={by} locator={locator}，输入值为：{value}")
 
@@ -93,6 +98,9 @@ class BasePage:
                     self.swip_click(step["text"])
                 if "send" == step["action"]:
                     self.send(step["value"], step['by'], step['locator'])
+                if "finds" == step["action"]:
+                    eles = self.finds(step['by'], step['locator'])
+                    return eles
                 if "sleep" == step["action"]:
                     time = int(step["time"])
                     sleep(time)

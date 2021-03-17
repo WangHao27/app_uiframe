@@ -21,7 +21,12 @@ class TestContact:
     @pytest.mark.parametrize('names', yaml.safe_load(open(f'{data_path}/test_deleteContact.yaml', 'r', encoding='utf-8')))
     def test_deleteContact(self, names):
         name = names['name']
-        App().start().goto_newsPage().goto_address().goto_personalInfo(name).goto_InfoSettings().goto_editorialMember().deleteMember()
+        steps = App().start().goto_newsPage().goto_address().goto_search()
+        beforeNum: List = steps.get_membersNumber(name)
+        steps.goto_personalInfo().goto_InfoSettings().goto_editorialMember().deleteMember()
+        afterNum: List = steps.get_membersNumber(name)
+        assert len(beforeNum) - len(afterNum) == 1
+
 
     @allure.story("添加成员测试")
     @pytest.mark.parametrize('information', yaml.safe_load(open(f'{data_path}/test_saveMembers.yaml', 'r', encoding='utf-8')))

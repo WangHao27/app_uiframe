@@ -10,5 +10,5 @@ deleteMember:
     locator: //*[@resource-id='com.tencent.wework:id/bpc']
     action: click
 
-  - action: swip_click
-    text: "我的客户"
+#  - action: swip_click
+#    text: "我的客户"

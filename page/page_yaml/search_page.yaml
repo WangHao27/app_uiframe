@@ -1,0 +1,14 @@
+get_membersNumber:
+  - by: xpath
+    locator: //*[@resource-id="com.tencent.wework:id/gy9"]
+    action: send
+    value: ${memberName}
+
+  - by: xpath
+    locator: //*[@resource-id="com.tencent.wework:id/ebs"]
+    action: finds
+
+goto_personalInfo:
+  - by: xpath
+    locator: //*[@resource-id="com.tencent.wework:id/gzp"]/android.widget.RelativeLayout[2]
+    action: click
